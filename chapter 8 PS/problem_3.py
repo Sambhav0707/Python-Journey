@@ -9,7 +9,27 @@ def rev(list , word):
 
     return n
 
-print(rev(l , "av"))  
+print(rev(l , "av")) 
+
+
+class Employee:
+    name = "Sambhav"
+    age = 22
+
+    def __init__(self):
+        print("Init method")
+    
+    def getName(self):
+        print(f"the name is {self.name}")
+
+ 
+e1 = Employee()
+
+e1.getName()
+
+e1.name = "Sambhav Dalal"
+
+e1.getName()
 
 
 
